@@ -1,5 +1,5 @@
 import React from 'react'
-import foto from '../assets/foto-perfil.jpg'
+import foto from '../assets/traje-perfil.jpg'
 
 const Perfil = () => (
   <section>

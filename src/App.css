@@ -86,3 +86,25 @@ li {
     font-size: 1.5rem;
   }
 }
+/* Botones personalizados */
+.custom-button {
+  background: #00bcd4;
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button:hover {
+  background: #0097a7;
+  transform: translateY(-2px);
+}
+
+.custom-button:active {
+  transform: scale(0.98);
+}
